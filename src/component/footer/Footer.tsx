@@ -23,7 +23,7 @@ const Footer = () => {
             <Typography variant="h6" gutterBottom>
               Quick Links
             </Typography>
-            <StyledFooterLink to="/">Home</StyledFooterLink>
+            <StyledFooterLink to="/"></StyledFooterLink>
             <StyledFooterLink to="/menu">Menu</StyledFooterLink>
             <StyledFooterLink to="/cart">Cart</StyledFooterLink>
             <StyledFooterLink to="/contact">Contact Us</StyledFooterLink>

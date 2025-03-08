@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 export const StyledFooter = styled(Box)({
   backgroundColor: "#3E2723", // Dark brown coffee theme
   color: "#D7CCC8", // Coffee-cream text color
-  padding: "0.5em 0", // Set top and bottom padding to 0.5em
+  padding: "0.75em 0", // Set top and bottom padding to 0.5em
   width: "100%",
   position: "fixed",
   bottom: 0,
