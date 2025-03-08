@@ -1,8 +1,12 @@
 import mongoose from 'mongoose';
+import dotenv from 'dotenv';
+
+// Load environment variables from the config/.env file
+dotenv.config({ path: '../../config/.env' });  // Adjusted path
 
 
 // MongoDB connection URI from .env file
-const mongoURI ="mongodb+srv://mingchiwong:Mingchiwong1992!@cluster0.65irf.mongodb.net/";
+const mongoURI = process.env.DB_CONNECTION
 
 // Function to connect to MongoDB using Mongoose
 const connectDB = () => {
