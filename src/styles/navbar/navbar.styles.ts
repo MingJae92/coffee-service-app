@@ -32,10 +32,15 @@ export const StyledTypography = styled(Typography)({
 
 // Styled Breadcrumbs with coffee-themed links
 export const StyledBreadcrumbs = styled(Breadcrumbs)({
+  display: "flex",
+  alignItems: "center",
+  gap: "15px", // Adds spacing between links
   "& a": {
-    color: "#D7CCC8", // Coffee-cream color for links
+    color: "#FFCC80", // Warm caramel color for links
     textDecoration: "none",
+    fontSize: "16px",
     fontWeight: "bold",
-    "&:hover": { color: "#FFAB91" }, // Toasty caramel hover effect
+    transition: "color 0.3s ease-in-out",
+    "&:hover": { color: "#FFAB40" }, // Darker caramel hover effect
   },
 });

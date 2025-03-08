@@ -11,7 +11,7 @@ const Navbar = () => {
           <Link to="/signup">Signup</Link>
           <Link to="/login">Login</Link>
           <Link to="/menu">Menu</Link>
-          <Link to="/cart">Cart</Link>
+         
         </StyledBreadcrumbs>
       </StyledToolbar>
     </StyledAppBar>
