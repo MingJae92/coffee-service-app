@@ -1,12 +1,12 @@
 import Navbar from "../../component/navbar/Navbar";
 
-function Signup() {
+function Cart() {
   return (
     <div>
       <Navbar />
-      Signup
+      Cart
     </div>
   );
 }
 
-export default Signup;
+export default Cart;
