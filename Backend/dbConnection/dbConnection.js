@@ -8,7 +8,7 @@ const mongoURI ="mongodb+srv://mingchiwong:Mingchiwong1992!@cluster0.65irf.mongo
 const connectDB = () => {
   mongoose.connect(mongoURI, { useNewUrlParser: true, useUnifiedTopology: true })
     .then(() => {
-      console.log('MongoDB connected');
+      console.log('MongoDB connected!!!');
     })
     .catch(err => {
       console.error('MongoDB connection error:', err);
