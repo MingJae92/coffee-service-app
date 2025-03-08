@@ -1,3 +1,6 @@
+# Ignore .env file in the config folder
+/config/.env
+
 # Logs
 logs
 *.log
@@ -7,16 +10,25 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
+# Node modules
+node_modules/
+
+# Build output
+dist/
+dist-ssr/
+
+# Local files
 *.local
 
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
-.idea
+.idea/
+
+# OS-specific files
 .DS_Store
+
+# Visual Studio specific files
 *.suo
 *.ntvs*
 *.njsproj
